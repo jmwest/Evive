@@ -1,0 +1,86 @@
+Enter an order: Eggs, Toast, Coffee
+Enter an order: Eggs, Toast, Water
+Enter an order: Eggs, Toast, Coffee(2)
+Enter an order: Eggs, Toast, Coffee(14)
+Enter an order: Eggs, Toast, Coffee
+Enter an order: Eggs, Toast, Coffee
+Enter an order: Eggs, Toast, Coffee(3)
+Enter an order: Eggs, Toast, Water
+Enter an order: Unable to process: Side is missing.
+Enter an order: Unable to process: Eggs cannot be ordered more than once. Side is missing.
+Enter an order: Unable to process: Side is missing.
+Enter an order: Unable to process: Main is missing.
+Enter an order: Unable to process: Main is missing. Toast cannot be ordered more than once.
+Enter an order: Unable to process: Main is missing.
+Enter an order: Unable to process: Main is missing. Side is missing.
+Enter an order: Unable to process: Main is missing. Side is missing.
+Enter an order: Unable to process: Main is missing. Side is missing.
+Enter an order: Unable to process: Ordered non-existant item.
+Enter an order: Unable to process: Ordered non-existant item.
+Enter an order: Unable to process: Eggs cannot be ordered more than once.
+Enter an order: Unable to process: Eggs cannot be ordered more than once.
+Enter an order: Unable to process: Toast cannot be ordered more than once.
+Enter an order: Unable to process: Toast cannot be ordered more than once.
+Enter an order: Unable to process: Eggs cannot be ordered more than once. Toast cannot be ordered more than once.
+Enter an order: Unable to process: Eggs cannot be ordered more than once. Toast cannot be ordered more than once.
+Enter an order: Unable to process: Eggs cannot be ordered more than once. Toast cannot be ordered more than once.
+Enter an order: Sandwich, Chips, Soda
+Enter an order: Sandwich, Chips, Water
+Enter an order: Sandwich, Chips(2), Water
+Enter an order: Sandwich, Chips(2), Soda
+Enter an order: Sandwich, Chips(3), Soda
+Enter an order: Sandwich, Chips(11), Soda
+Enter an order: Sandwich, Chips, Soda
+Enter an order: Sandwich, Chips, Soda
+Enter an order: Sandwich, Chips(3), Soda
+Enter an order: Sandwich, Chips, Water
+Enter an order: Sandwich, Chips(3), Water
+Enter an order: Unable to process: Side is missing.
+Enter an order: Unable to process: Sandwich cannot be ordered more than once. Side is missing.
+Enter an order: Unable to process: Side is missing.
+Enter an order: Unable to process: Main is missing.
+Enter an order: Unable to process: Main is missing.
+Enter an order: Unable to process: Main is missing.
+Enter an order: Unable to process: Main is missing. Side is missing.
+Enter an order: Unable to process: Main is missing. Side is missing.
+Enter an order: Unable to process: Main is missing. Side is missing. Soda cannot be ordered more than once.
+Enter an order: Unable to process: Ordered non-existant item.
+Enter an order: Unable to process: Ordered non-existant item.
+Enter an order: Unable to process: Sandwich cannot be ordered more than once.
+Enter an order: Unable to process: Sandwich cannot be ordered more than once.
+Enter an order: Unable to process: Sandwich cannot be ordered more than once.
+Enter an order: Unable to process: Sandwich cannot be ordered more than once.
+Enter an order: Unable to process: Sandwich cannot be ordered more than once. Soda cannot be ordered more than once.
+Enter an order: Steak, Potatoes, Wine, Water, Cake
+Enter an order: Steak, Potatoes, Water, Cake
+Enter an order: Steak, Potatoes, Wine, Water, Cake
+Enter an order: Steak, Potatoes, Wine, Water, Cake
+Enter an order: Steak, Potatoes, Water, Cake
+Enter an order: Steak, Potatoes, Water, Cake
+Enter an order: Unable to process: Side is missing. Dessert is missing.
+Enter an order: Unable to process: Side is missing. Dessert is missing.
+Enter an order: Unable to process: Dessert is missing.
+Enter an order: Unable to process: Dessert is missing.
+Enter an order: Unable to process: Side is missing.
+Enter an order: Unable to process: Side is missing.
+Enter an order: Unable to process: Main is missing. Dessert is missing.
+Enter an order: Unable to process: Main is missing. Dessert is missing.
+Enter an order: Unable to process: Main is missing.
+Enter an order: Unable to process: Main is missing.
+Enter an order: Unable to process: Main is missing. Side is missing.
+Enter an order: Unable to process: Main is missing. Side is missing.
+Enter an order: Unable to process: Main is missing. Side is missing. Dessert is missing.
+Enter an order: Unable to process: Ordered non-existant item.
+Enter an order: Unable to process: Steak cannot be ordered more than once.
+Enter an order: Unable to process: Potatoes cannot be ordered more than once.
+Enter an order: Unable to process: Wine cannot be ordered more than once.
+Enter an order: Unable to process: Cake cannot be ordered more than once.
+Enter an order: Unable to process: Steak cannot be ordered more than once.
+Enter an order: Unable to process: Potatoes cannot be ordered more than once.
+Enter an order: Unable to process: Cake cannot be ordered more than once.
+Enter an order: Unable to process: Steak cannot be ordered more than once. Potatoes cannot be ordered more than once.
+Enter an order: Unable to process: Steak cannot be ordered more than once. Cake cannot be ordered more than once.
+Enter an order: Unable to process: Potatoes cannot be ordered more than once. Cake cannot be ordered more than once.
+Enter an order: Unable to process: Steak cannot be ordered more than once. Potatoes cannot be ordered more than once. Cake cannot be ordered more than once.
+Enter an order: Unable to process: Steak cannot be ordered more than once. Potatoes cannot be ordered more than once. Wine cannot be ordered more than once. Cake cannot be ordered more than once.
+Enter an order:
