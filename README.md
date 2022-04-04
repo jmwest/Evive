@@ -56,7 +56,7 @@ Valid user input for an order follows these rules:
 	1. At Breakfast, Coffee may be ordered an unlimited number of times per meal.
 	2. At Lunch, Chips may be ordered an unlimited number of times per meal.
 
-The program will continue to prompt for using input until the program is closed.
+The program will continue to prompt for user input until the program is closed.
 
 To exit the program, use the quit command:
 ```
