@@ -127,21 +127,21 @@ int main()
 			int number_allowed [4] = {1, 1, 2, 0};
 			bool dish_required [4] = {true, true, false, false};
 			output = mealLogicFunction(false, number_allowed, dish_required,
-							  breakfast, order_array, meal_items);
+									   breakfast, order_array, meal_items);
 		}
 		else if (meal.compare("Lunch") == 0) {
 			
 			int number_allowed [4] = {1, 2, 1, 0};
 			bool dish_required [4] = {true, true, false, false};
 			output = mealLogicFunction(false, number_allowed, dish_required,
-							  lunch, order_array, meal_items);
+									   lunch, order_array, meal_items);
 		}
 		else if (meal.compare("Dinner") == 0) {
 			
 			int number_allowed [4] = {1, 1, 1, 1};
 			bool dish_required [4] = {true, true, false, true};
 			output = mealLogicFunction(true, number_allowed, dish_required,
-							  dinner, order_array, meal_items);
+									   dinner, order_array, meal_items);
 		}
 		else {
 			output = g_order_error_str + " " + g_invalid_input_str;
