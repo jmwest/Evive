@@ -20,7 +20,7 @@ static const string g_over_ordered_str = " cannot be ordered more than once.";
 
 // Function Declarations
 
-/n error messages for the user./ Purpose: mealLogicFuntion is a multipurpose function
+// error messages for the user./ Purpose: mealLogicFuntion is a multipurpose function
 // Input: 	is_dinner: is boolean that is true if the current meal is dinner,
 //				false otherwise
 //			numberAllowed: is an int array of length 4. Each index will be of the value
