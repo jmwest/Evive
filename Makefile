@@ -6,7 +6,11 @@ restaurant : Restaurant.cpp
 
 test : restaurant
 	./restaurant < Restaurant-Test.txt > Restaurant-Test.out
-	diff -q Restaurant-Test.correct Restaurant-Test.out
+	diff -q -b Restaurant-Test.correct Restaurant-Test.out
+
+testD : restaurant
+	./restaurant < Restaurant-Test.txt > Restaurant-Test.out
+	diff -y -b Restaurant-Test.correct Restaurant-Test.out
 
 clean :
 	rm -vf Restaurant-Test*.out
