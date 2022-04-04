@@ -11,10 +11,10 @@
 using namespace std;
 
 // Global Strings
-const string g_order_error_str = "Unable to process:";
-const string g_invalid_input_str = "Ordered non-existant item.";
-const string g_missing_item_str = " is missing.";
-const string g_over_ordered_str = " cannot be ordered more than once.";
+static const string g_order_error_str = "Unable to process:";
+static const string g_invalid_input_str = "Ordered non-existant item.";
+static const string g_missing_item_str = " is missing.";
+static const string g_over_ordered_str = " cannot be ordered more than once.";
 
 // Function Declarations
 string mealLogicFunction(bool is_dinner, int numberAllowed [4], bool dishRequired [4],
@@ -38,10 +38,6 @@ int main()
 		cout << "Enter an order: ";
 		getline(cin, input);
 		
-			// Debug //
-		//cout << endl << input << " : " << order;
-			// Debug //
-		
 		// 2. Parse input
 		// TODO handle exceptions
 		bool valid_input = true;
@@ -57,6 +53,7 @@ int main()
 		}
 		
 		if (meal.compare("q") == 0) {
+			cout << endl;
 			break;
 		}
 		
@@ -208,44 +205,3 @@ string mealLogicFunction(bool is_dinner, int numberAllowed [4], bool dishRequire
 	
 	return output;
 }
-
-
-/*
-if (order_array[3] > 0) {
-	output = order_error_str + invalid_input_str;
-}
-else if (order_array[0] == 1 && order_array[1] == 1) {
-	
-	output = "Eggs, Toast, ";
-	
-	if (order_array[2] == 0) {
-		output += "Water";
-	}
-	else if (order_array[2] == 1) {
-		output += "Coffee";
-	}
-	else {
-		output += "Coffee(";
-		output += to_string(order_array[2]);
-		output += ")";
-	}
-}
-else {
-	
-	output = order_error_str;
-	
-	if (order_array[0] < 1) {
-		output += missing_main_str;
-	}
-	else if (order_array[0] > 1) {
-		output += " Eggs cannot be ordered more than once.";
-	}
-	
-	if (order_array[1] < 1) {
-		output += missing_side_str;
-	}
-	else if (order_array[1] > 1) {
-		output += " Toast cannot be ordered more than once.";
-	}
-}
-*/
