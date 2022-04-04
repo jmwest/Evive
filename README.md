@@ -29,7 +29,7 @@ To run the program, use the following command:
 The user will then be prompted to input information for ordering a meal.
 Valid user input will be in the form:
 ```
-\[meal\] \[order\]
+[meal] [order]
 ```
 Where \[meal\] can be one of the following:
 
@@ -42,19 +42,19 @@ And \[order\] is a comma separated string of numbers, such as:
 1,2,3
 ```
 
+The following table details the items that can be ordered for each meal, where each item in the \[order\] string corresponds to the number at the top of the table:
+| 			| 1. \(Main\)	| 2. \(Side\)	| 3. \(Drink\)	| 4. \(Dessert\) 	|
+| ---		| --- 			| --- 			| --- 			| --- 				|
+| Breakfast | Eggs 			| Toast 		| Coffee 		| 					|
+| Lunch		| Sandwich 		| Chips 		| Soda 			| 					|
+| Dinner	| Steak 		| Potatoes 		| Wine 			| Cake 				| 
+
 Valid user input for an order follows these rules:
 1. Each order must contain a main and a side \(drinks are optional\).
 	- Additionally, at Dinner, dessert must be ordered.
 2. Each type of item may only be ordered once per meal, excluding the following exceptions:
 	1. At Breakfast, Coffee may be ordered an unlimited number of times per meal.
 	2. At Lunch, Chips may be ordered an unlimited number of times per meal.
-
-The following table details the items that can be ordered for each meal:
-| 			| 1. \(Main\)	| 2. \(Side\)	| 3. \(Drink\)	| 4. \(Dessert\) 	|
-| ---		| --- 			| --- 			| --- 			| --- 				|
-| Breakfast | Eggs 			| Toast 		| Coffee 		| 					|
-| Lunch		| Sandwich 		| Chips 		| Soda 			| 					|
-| Dinner	| Steak 		| Potatoes 		| Wine 			| Cake 				| 
 
 The program will continue to prompt for using input until the program is closed.
 
