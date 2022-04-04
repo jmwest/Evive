@@ -11,6 +11,11 @@
 
 ### Deployment
 
+This program is made using C++ and includes the following built in C++ packages:
+- <string>
+- <iostream>
+- <exception>
+
 Note: These deployment steps are intended for Unix based operating systems.
 
 To build the program, use the following command:
