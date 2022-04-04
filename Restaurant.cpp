@@ -7,6 +7,7 @@
 
 #include <string>
 #include <iostream>
+#include <exception>
 
 using namespace std;
 
@@ -104,8 +105,9 @@ int main()
 					i = order.length();
 				}
 			}
-		} catch (int n) {
-			valid_input = false;
+		} catch (exception& e) {
+			cout << g_order_error_str + " Order must be a comma separated string of numbers." << endl;
+			continue;
 		}
 		
 		
